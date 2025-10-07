@@ -54,7 +54,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end mr-0 md:mr-8">
-        <a className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-[4px]"><Github></Github> Contribute</a>
+        <a href="https://github.com/TawsifHossain007" target="_blank" rel="noopener noreferrer" className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-[4px]"><Github></Github> Contribute</a>
       </div>
     </div>
   );
