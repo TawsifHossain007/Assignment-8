@@ -10,7 +10,7 @@ const HomeApps = ({ apps }) => {
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 mt-20 gap-6 pb-20">
-        {apps.map((app) => (
+        {apps.slice(0,8).map((app) => (
           <HomeApp key={app.id} app={app}></HomeApp>
         ))}
       </div>

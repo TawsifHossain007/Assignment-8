@@ -1,30 +1,8 @@
-// import React from 'react';
-// import { Download, Star } from "lucide-react";
-
-// const HomeApp = ({app}) => {
-    
-//     return (        
-//       <div className='bg-white p-4 rounded-[4px] shadow-2xl'>
-//         <img
-//           className='w-[316px] h-[316px]'
-//           src={app.image}
-//           alt=""
-//         />
-//         <h1 className='font-medium text-[20px]'>{app.title}</h1>
-//         <div className='flex items-center justify-between mt-3'>
-//           <div className="badge badge-soft badge-success"><Download></Download>{app.downloads}</div>
-//           <div className="badge badge-soft badge-warning"><Star></Star>{app.ratingAvg}</div>
-//         </div>
-//       </div>
-//     );
-// };
-
-// export default HomeApp;
-
-import React from 'react';
 import { Download, Star } from "lucide-react";
 
-const HomeApp = ({ app }) => {
+const HomeApp = ({ app, hideShowBtn }) => {
+
+
   return (
     <div 
       className='
@@ -40,6 +18,7 @@ const HomeApp = ({ app }) => {
         hover:bg-gray-300
         cursor-pointer
       '
+       onClick={hideShowBtn} 
     >
       <img
         className='w-[260px] h-[260px] rounded-[4px] object-cover'
