@@ -1,0 +1,62 @@
+// import React from 'react';
+// import { Download, Star } from "lucide-react";
+
+// const HomeApp = ({app}) => {
+    
+//     return (        
+//       <div className='bg-white p-4 rounded-[4px] shadow-2xl'>
+//         <img
+//           className='w-[316px] h-[316px]'
+//           src={app.image}
+//           alt=""
+//         />
+//         <h1 className='font-medium text-[20px]'>{app.title}</h1>
+//         <div className='flex items-center justify-between mt-3'>
+//           <div className="badge badge-soft badge-success"><Download></Download>{app.downloads}</div>
+//           <div className="badge badge-soft badge-warning"><Star></Star>{app.ratingAvg}</div>
+//         </div>
+//       </div>
+//     );
+// };
+
+// export default HomeApp;
+
+import React from 'react';
+import { Download, Star } from "lucide-react";
+
+const HomeApp = ({ app }) => {
+  return (
+    <div 
+      className='
+        bg-white 
+        p-4 
+        rounded-[4px] 
+        shadow-2xl 
+        transform 
+        transition 
+        duration-300 
+        hover:-translate-y-2 
+        hover:shadow-2xl 
+        hover:bg-gray-300
+        cursor-pointer
+      '
+    >
+      <img
+        className='w-[260px] h-[260px] rounded-[4px] object-cover'
+        src={app.image}
+        alt=""
+      />
+      <h1 className='font-medium text-[20px] mt-2'>{app.title}</h1>
+      <div className='flex items-center justify-between mt-3'>
+        <div className="badge badge-soft badge-success flex items-center gap-1">
+          <Download /> {app.downloads}
+        </div>
+        <div className="badge badge-soft badge-warning flex items-center gap-1">
+          <Star /> {app.ratingAvg}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HomeApp;

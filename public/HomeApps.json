@@ -1,0 +1,148 @@
+{
+  "appsData": [
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Notion",
+      "companyName": "Notion Labs Inc.",
+      "id": 1,
+      "description": "Notion is an all-in-one workspace that helps you write, plan, collaborate, and organize. It combines notes, tasks, databases, and calendars into a single platform. Teams use Notion for project management, documentation, and knowledge sharing, while individuals love it for personal productivity and goal tracking. With its modular block system, you can customize pages, embed media, and connect workflows seamlessly.",
+      "size": 120,
+      "reviews": 10421,
+      "ratingAvg": 4.6,
+      "downloads": "5M",
+      "ratings": [
+        { "name": "1 star", "count": 512 },
+        { "name": "2 star", "count": 630 },
+        { "name": "3 star", "count": 1012 },
+        { "name": "4 star", "count": 2942 },
+        { "name": "5 star", "count": 5325 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Spotify",
+      "companyName": "Spotify AB",
+      "id": 2,
+      "description": "Spotify is a music streaming service that offers millions of songs, podcasts, and playlists. Users can explore trending music, discover new artists, and create personalized playlists. Premium users enjoy ad-free listening, offline downloads, and better audio quality. With collaborative playlists and algorithm-based recommendations, Spotify enhances every music lover’s experience.",
+      "size": 98,
+      "reviews": 20341,
+      "ratingAvg": 4.7,
+      "downloads": "12M",
+      "ratings": [
+        { "name": "1 star", "count": 1100 },
+        { "name": "2 star", "count": 1420 },
+        { "name": "3 star", "count": 2390 },
+        { "name": "4 star", "count": 4120 },
+        { "name": "5 star", "count": 9311 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Figma",
+      "companyName": "Figma Inc.",
+      "id": 3,
+      "description": "Figma is a collaborative interface design tool used by designers, developers, and teams. It enables real-time editing, prototyping, and feedback collection directly within the browser. With features like version history, component libraries, and cross-platform support, Figma streamlines the design-to-development workflow, making it a go-to platform for UI/UX professionals.",
+      "size": 160,
+      "reviews": 8562,
+      "ratingAvg": 4.8,
+      "downloads": "7M",
+      "ratings": [
+        { "name": "1 star", "count": 432 },
+        { "name": "2 star", "count": 525 },
+        { "name": "3 star", "count": 810 },
+        { "name": "4 star", "count": 2140 },
+        { "name": "5 star", "count": 4655 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Duolingo",
+      "companyName": "Duolingo Inc.",
+      "id": 4,
+      "description": "Duolingo is a gamified language learning platform that makes mastering a new language fun and interactive. With bite-sized lessons, streak tracking, and quizzes, users can practice speaking, listening, and reading across 30+ languages. The app adapts to your learning pace and provides instant feedback, making it perfect for beginners as well as advanced learners.",
+      "size": 75,
+      "reviews": 15342,
+      "ratingAvg": 4.5,
+      "downloads": "9M",
+      "ratings": [
+        { "name": "1 star", "count": 980 },
+        { "name": "2 star", "count": 1120 },
+        { "name": "3 star", "count": 1890 },
+        { "name": "4 star", "count": 4210 },
+        { "name": "5 star", "count": 7142 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Canva",
+      "companyName": "Canva Pty Ltd",
+      "id": 5,
+      "description": "Canva is a design platform for creating presentations, posters, social media graphics, and more. With drag-and-drop functionality, thousands of templates, and free stock assets, Canva makes design accessible to everyone. Professionals use it for brand kits and marketing content, while individuals love it for event invites, resumes, and social posts.",
+      "size": 140,
+      "reviews": 18891,
+      "ratingAvg": 4.7,
+      "downloads": "15M",
+      "ratings": [
+        { "name": "1 star", "count": 1220 },
+        { "name": "2 star", "count": 1440 },
+        { "name": "3 star", "count": 2180 },
+        { "name": "4 star", "count": 5120 },
+        { "name": "5 star", "count": 8931 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Slack",
+      "companyName": "Slack Technologies",
+      "id": 6,
+      "description": "Slack is a communication platform designed for teams and organizations. It provides channels, direct messaging, voice calls, and integrations with popular tools like Google Drive, GitHub, and Trello. With search functionality, file sharing, and workflow automations, Slack helps companies streamline communication and reduce reliance on emails.",
+      "size": 110,
+      "reviews": 9420,
+      "ratingAvg": 4.4,
+      "downloads": "6M",
+      "ratings": [
+        { "name": "1 star", "count": 670 },
+        { "name": "2 star", "count": 840 },
+        { "name": "3 star", "count": 1290 },
+        { "name": "4 star", "count": 2430 },
+        { "name": "5 star", "count": 4190 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Zoom",
+      "companyName": "Zoom Video Communications",
+      "id": 7,
+      "description": "Zoom is a video conferencing app widely used for meetings, webinars, and online learning. It supports HD video, screen sharing, breakout rooms, and virtual backgrounds. Trusted by businesses, educators, and communities, Zoom makes remote collaboration easy and reliable across devices and networks.",
+      "size": 130,
+      "reviews": 22031,
+      "ratingAvg": 4.3,
+      "downloads": "25M",
+      "ratings": [
+        { "name": "1 star", "count": 1890 },
+        { "name": "2 star", "count": 2130 },
+        { "name": "3 star", "count": 3920 },
+        { "name": "4 star", "count": 6910 },
+        { "name": "5 star", "count": 8181 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+      "title": "Trello",
+      "companyName": "Atlassian",
+      "id": 8,
+      "description": "Trello is a project management and productivity tool based on boards, lists, and cards. It allows teams to organize tasks, track progress, and collaborate visually. Trello integrates with apps like Slack, Jira, and Google Drive, making it versatile for agile teams, personal to-do lists, and large project workflows.",
+      "size": 95,
+      "reviews": 6320,
+      "ratingAvg": 4.6,
+      "downloads": "40M",
+      "ratings": [
+        { "name": "1 star", "count": 420 },
+        { "name": "2 star", "count": 520 },
+        { "name": "3 star", "count": 860 },
+        { "name": "4 star", "count": 1780 },
+        { "name": "5 star", "count": 2740 }
+      ]
+    }
+  ]
+}

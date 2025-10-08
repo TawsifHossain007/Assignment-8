@@ -6,7 +6,7 @@ import BannerImg from "../assets/hero.png";
 const Banner = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center px-4 mt-6 md:mt-12">
+      <div className="flex flex-col justify-center items-center px-4 pt-6 md:pt-12 bg-[#f5f5f5]">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center leading-tight">
           We Build <br />
           <span className="text-[#632ee3]">Productive</span> Apps

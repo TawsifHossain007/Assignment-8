@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-       <div className="hero bg-gradient-to-r from-[#8b5cf6] via-[#c084fc] to-[#f5f3ff] min-h-screen text-[#4b0082] ">
+       <div className="hero bg-gradient-to-r from-[#8b5cf6] via-[#c084fc] to-[#f5f3ff] min-h-screen text-[#4b0082]">
   <div className="hero-content flex-col lg:flex-row-reverse gap-16">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Join the HERO.IO Community</h1>
