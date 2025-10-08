@@ -8,6 +8,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            
             <HomeApps key={apps.id} apps={apps.appsData}></HomeApps>
         </div>
     );

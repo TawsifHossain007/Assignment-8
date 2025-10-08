@@ -1,6 +1,7 @@
 import { Link, useLoaderData, useLocation } from "react-router";
 import HomeApp from "../../Components/HomeApp/HomeApp";
 import { useState } from "react";
+import ErrorApps from "../../Components/ErrorApps/ErrorApps";
 
 const Apps = () => {
   const appsObj = useLoaderData();
@@ -30,7 +31,7 @@ const Apps = () => {
         <p className="text-[24px] font-semibold mb-10 md:mb-0">
           ({apps.length}) Apps Found
         </p>
-        <label className="input">
+        <label className="input border border-gray-600">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,11 +57,22 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 mt-20 gap-6 pb-20">
+      {/* <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 mt-20 gap-6 pb-20">
         {filteredApps.map((app) => (
           <HomeApp hideShowBtn={hideShowBtn} key={app.id} app={app}></HomeApp>
         ))}
-      </div>
+      </div> */}
+      <div className="max-w-[1200px] mx-auto mt-20 gap-6 pb-20">
+  {filteredApps.length > 0 ? (
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      {filteredApps.map((app) => (
+        <HomeApp hideShowBtn={hideShowBtn} key={app.id} app={app} />
+      ))}
+    </div>
+  ) : (
+    <ErrorApps></ErrorApps>
+  )}
+</div>
       {showButton && (
         <div className="flex items-center justify-center pb-20">
           <button className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-[4px] px-8">
