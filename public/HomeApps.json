@@ -5,9 +5,9 @@
       "title": "Notion",
       "companyName": "Notion Labs Inc.",
       "id": 1,
-      "description": "Notion is an all-in-one workspace that helps you write, plan, collaborate, and organize. It combines notes, tasks, databases, and calendars into a single platform. Teams use Notion for project management, documentation, and knowledge sharing, while individuals love it for personal productivity and goal tracking. With its modular block system, you can customize pages, embed media, and connect workflows seamlessly.",
+      "description": "Notion is an all-in-one productivity platform that lets users write, plan, organize, and collaborate in one place. Its modular block system gives complete flexibility to design personal or team workflows, blending notes, tasks, and databases seamlessly. With real-time collaboration, beautiful templates, and deep customization, Notion empowers individuals and teams to stay organized, think clearly, and bring structure to creative ideas.",
       "size": 120,
-      "reviews": 10421,
+      "reviews": "10k+",
       "ratingAvg": 4.6,
       "downloads": "5M",
       "ratings": [
@@ -25,7 +25,7 @@
       "id": 2,
       "description": "Spotify is a music streaming service that offers millions of songs, podcasts, and playlists. Users can explore trending music, discover new artists, and create personalized playlists. Premium users enjoy ad-free listening, offline downloads, and better audio quality. With collaborative playlists and algorithm-based recommendations, Spotify enhances every music lover’s experience.",
       "size": 98,
-      "reviews": 20341,
+      "reviews": "20k+",
       "ratingAvg": 4.7,
       "downloads": "12M",
       "ratings": [
@@ -43,7 +43,7 @@
       "id": 3,
       "description": "Figma is a collaborative interface design tool used by designers, developers, and teams. It enables real-time editing, prototyping, and feedback collection directly within the browser. With features like version history, component libraries, and cross-platform support, Figma streamlines the design-to-development workflow, making it a go-to platform for UI/UX professionals.",
       "size": 160,
-      "reviews": 8562,
+      "reviews": "8.5k+",
       "ratingAvg": 4.8,
       "downloads": "7M",
       "ratings": [
@@ -61,7 +61,7 @@
       "id": 4,
       "description": "Duolingo is a gamified language learning platform that makes mastering a new language fun and interactive. With bite-sized lessons, streak tracking, and quizzes, users can practice speaking, listening, and reading across 30+ languages. The app adapts to your learning pace and provides instant feedback, making it perfect for beginners as well as advanced learners.",
       "size": 75,
-      "reviews": 15342,
+      "reviews": "15k+",
       "ratingAvg": 4.5,
       "downloads": "9M",
       "ratings": [
@@ -79,7 +79,7 @@
       "id": 5,
       "description": "Canva is a design platform for creating presentations, posters, social media graphics, and more. With drag-and-drop functionality, thousands of templates, and free stock assets, Canva makes design accessible to everyone. Professionals use it for brand kits and marketing content, while individuals love it for event invites, resumes, and social posts.",
       "size": 140,
-      "reviews": 18891,
+      "reviews": "18k+",
       "ratingAvg": 4.7,
       "downloads": "15M",
       "ratings": [
@@ -97,7 +97,7 @@
       "id": 6,
       "description": "Slack is a communication platform designed for teams and organizations. It provides channels, direct messaging, voice calls, and integrations with popular tools like Google Drive, GitHub, and Trello. With search functionality, file sharing, and workflow automations, Slack helps companies streamline communication and reduce reliance on emails.",
       "size": 110,
-      "reviews": 9420,
+      "reviews": "9.4k+",
       "ratingAvg": 4.4,
       "downloads": "6M",
       "ratings": [
@@ -115,7 +115,7 @@
       "id": 7,
       "description": "Zoom is a video conferencing app widely used for meetings, webinars, and online learning. It supports HD video, screen sharing, breakout rooms, and virtual backgrounds. Trusted by businesses, educators, and communities, Zoom makes remote collaboration easy and reliable across devices and networks.",
       "size": 130,
-      "reviews": 22031,
+      "reviews": "22k+",
       "ratingAvg": 4.3,
       "downloads": "25M",
       "ratings": [
@@ -133,7 +133,7 @@
       "id": 8,
       "description": "Trello is a project management and productivity tool based on boards, lists, and cards. It allows teams to organize tasks, track progress, and collaborate visually. Trello integrates with apps like Slack, Jira, and Google Drive, making it versatile for agile teams, personal to-do lists, and large project workflows.",
       "size": 95,
-      "reviews": 6320,
+      "reviews": "6.3K+",
       "ratingAvg": 4.6,
       "downloads": "40M",
       "ratings": [
@@ -151,7 +151,7 @@
       "id": 9,
       "description": "Instagram is a photo and video sharing social networking platform. Users can upload media, share stories, connect with followers, and explore content using hashtags. It’s widely used for personal expression, influencer marketing, and brand promotion.",
       "size": 150,
-      "reviews": 31245,
+      "reviews": "31k+",
       "ratingAvg": 4.6,
       "downloads": "30M",
       "ratings": [
@@ -169,7 +169,7 @@
       "id": 10,
       "description": "YouTube is a video-sharing platform where users can upload, watch, and interact with videos. It supports live streaming, content subscriptions, and a wide variety of entertainment, education, and music content.",
       "size": 200,
-      "reviews": 45210,
+      "reviews": "45k+",
       "ratingAvg": 4.8,
       "downloads": "50M",
       "ratings": [
@@ -187,7 +187,7 @@
       "id": 11,
       "description": "TikTok is a short-form video platform that allows users to create, share, and discover entertaining videos. Its algorithm curates content tailored to each user's interests, making it highly engaging.",
       "size": 120,
-      "reviews": 39821,
+      "reviews": "39k+",
       "ratingAvg": 4.5,
       "downloads": "60M",
       "ratings": [
@@ -205,7 +205,7 @@
       "id": 12,
       "description": "WhatsApp is a messaging app that supports text messaging, voice and video calls, file sharing, and group chats. It offers end-to-end encryption for secure communication.",
       "size": 80,
-      "reviews": 40210,
+      "reviews": "40k+",
       "ratingAvg": 4.7,
       "downloads": "80M",
       "ratings": [
@@ -223,7 +223,7 @@
       "id": 13,
       "description": "Netflix is a streaming platform offering movies, series, documentaries, and original content. Users can watch content on-demand across devices with personalized recommendations.",
       "size": 180,
-      "reviews": 25120,
+      "reviews": "25k+",
       "ratingAvg": 4.6,
       "downloads": "35M",
       "ratings": [
@@ -241,7 +241,7 @@
       "id": 14,
       "description": "Google Maps is a navigation and mapping service providing directions, traffic updates, local business info, and satellite imagery. It helps users explore places efficiently.",
       "size": 160,
-      "reviews": 28321,
+      "reviews": "28k+",
       "ratingAvg": 4.7,
       "downloads": "70M",
       "ratings": [
@@ -259,7 +259,7 @@
       "id": 15,
       "description": "Telegram is a messaging app emphasizing speed, security, and privacy. It offers channels, groups, and bots for communication, making it popular among communities and tech enthusiasts.",
       "size": 90,
-      "reviews": 19231,
+      "reviews": "19k+",
       "ratingAvg": 4.5,
       "downloads": "45M",
       "ratings": [
@@ -277,7 +277,7 @@
       "id": 16,
       "description": "Facebook is a social networking platform for connecting with friends, sharing updates, media, and discovering communities. It supports messaging, groups, events, and live streaming.",
       "size": 150,
-      "reviews": 40231,
+      "reviews": "40k+",
       "ratingAvg": 4.4,
       "downloads": "90M",
       "ratings": [
@@ -295,7 +295,7 @@
       "id": 17,
       "description": "Adobe Photoshop is a professional photo editing and graphic design software used for image retouching, compositing, and digital art creation.",
       "size": 250,
-      "reviews": 18231,
+      "reviews": "18k+",
       "ratingAvg": 4.8,
       "downloads": "12M",
       "ratings": [
@@ -313,7 +313,7 @@
       "id": 18,
       "description": "Adobe Illustrator is a vector graphics editor used to create logos, icons, illustrations, and scalable artwork for print, web, and mobile applications.",
       "size": 230,
-      "reviews": 14231,
+      "reviews": "14k+",
       "ratingAvg": 4.7,
       "downloads": "10M",
       "ratings": [
@@ -331,7 +331,7 @@
       "id": 19,
       "description": "Google Drive is a cloud storage and file synchronization service that allows users to store files securely, share with others, and access them from any device.",
       "size": 120,
-      "reviews": 18211,
+      "reviews": "18k+",
       "ratingAvg": 4.6,
       "downloads": "65M",
       "ratings": [
@@ -349,7 +349,7 @@
       "id": 20,
       "description": "Discord is a chat and communication platform for communities, gamers, and teams. It provides text, voice, and video channels, along with integration features for various apps and bots.",
       "size": 110,
-      "reviews": 14210,
+      "reviews": "11k+",
       "ratingAvg": 4.5,
       "downloads": "55M",
       "ratings": [
@@ -367,7 +367,7 @@
       "id": 21,
       "description": "Twitter is a social networking platform where users post and interact with messages called tweets. It supports media sharing, threads, hashtags, and live updates.",
       "size": 100,
-      "reviews": 19221,
+      "reviews": "19k+",
       "ratingAvg": 4.4,
       "downloads": "60M",
       "ratings": [
@@ -385,7 +385,7 @@
       "id": 22,
       "description": "LinkedIn is a professional networking platform that allows users to connect, share industry content, apply for jobs, and showcase their skills and experience.",
       "size": 120,
-      "reviews": 15211,
+      "reviews": "15k+",
       "ratingAvg": 4.6,
       "downloads": "45M",
       "ratings": [
@@ -403,7 +403,7 @@
       "id": 23,
       "description": "Reddit is a community-based platform where users submit content, vote, and engage in discussions across thousands of topic-specific forums called subreddits.",
       "size": 110,
-      "reviews": 11231,
+      "reviews": "11k+",
       "ratingAvg": 4.5,
       "downloads": "35M",
       "ratings": [
@@ -421,7 +421,7 @@
       "id": 24,
       "description": "PayPal is an online payment system that allows individuals and businesses to transfer money securely, make payments, and manage transactions worldwide.",
       "size": 90,
-      "reviews": 14201,
+      "reviews": "14k+",
       "ratingAvg": 4.7,
       "downloads": "40M",
       "ratings": [
@@ -439,7 +439,7 @@
       "id": 25,
       "description": "Amazon is an e-commerce platform that allows users to buy, sell, and explore a wide range of products. It offers fast shipping, customer reviews, and a variety of payment options.",
       "size": 200,
-      "reviews": 51201,
+      "reviews": "51k+",
       "ratingAvg": 4.8,
       "downloads": "100M",
       "ratings": [

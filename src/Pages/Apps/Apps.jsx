@@ -57,11 +57,6 @@ const Apps = () => {
           />
         </label>
       </div>
-      {/* <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 mt-20 gap-6 pb-20">
-        {filteredApps.map((app) => (
-          <HomeApp hideShowBtn={hideShowBtn} key={app.id} app={app}></HomeApp>
-        ))}
-      </div> */}
       <div className="max-w-[1200px] mx-auto mt-20 gap-6 pb-20">
   {filteredApps.length > 0 ? (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

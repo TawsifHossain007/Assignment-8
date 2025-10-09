@@ -1,10 +1,12 @@
 import { Download, Star } from "lucide-react";
+import { Link } from "react-router";
 
 const HomeApp = ({ app, hideShowBtn }) => {
 
 
   return (
-    <div 
+    <Link to={`/AppDetails/${app.id}`}>
+        <div 
       className='
         bg-white 
         p-4 
@@ -35,6 +37,8 @@ const HomeApp = ({ app, hideShowBtn }) => {
         </div>
       </div>
     </div>
+    </Link>
+    
   );
 };
 

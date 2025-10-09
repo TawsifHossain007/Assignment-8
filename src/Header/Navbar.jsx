@@ -45,10 +45,12 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
+        <Link to={'/'}>
         <div className="flex justify-center item ml-0 md:ml-8">
           <img className="h-[40px] w-[40px]" src={LogoImg} alt="" />
           <a className="btn btn-ghost text-xl text-[#632ee3]">HERO.IO</a>
         </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
