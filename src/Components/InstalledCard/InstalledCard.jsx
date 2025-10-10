@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import DownloadImg from "../../assets/icon-downloads.png";
 import RatingImg from "../../assets/icon-ratings.png";
 
@@ -6,7 +7,7 @@ const InstalledCard = ({ card, handleUninstall }) => {
   return (
     <div className="max-w-[1200px] mx-auto mt-4">
       <div className="bg-white p-3 rounded-[4px]">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center justify-start gap-4">
             <img className="w-[80px] h-[80px] rounded-xl" src={card.image} alt="" />
             <div>
@@ -27,7 +28,8 @@ const InstalledCard = ({ card, handleUninstall }) => {
             </div>
           </div>
           <div>
-                <button onClick={()=>handleUninstall(card.id)} className="btn btn-success text-white px-6 py-3">Uninstall</button>
+                <button onClick={()=>handleUninstall(card.id)} className="btn btn-success mt-8 md:mt-0 text-white px-6 py-3">Uninstall</button>
+                
           </div>
         </div>
         <div>

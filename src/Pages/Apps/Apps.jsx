@@ -2,16 +2,26 @@ import { Link, useLoaderData, useLocation } from "react-router";
 import HomeApp from "../../Components/HomeApp/HomeApp";
 import { useState } from "react";
 import ErrorApps from "../../Components/ErrorApps/ErrorApps";
+import { PacmanLoader } from "react-spinners";
 
 const Apps = () => {
   const appsObj = useLoaderData();
   const apps = appsObj.appsData;
   const location = useLocation();
-
   const [showButton, setShowButton] = useState(location.pathname !== "/apps");
   const [searchTerm, setSearchTerm] = useState("");
+  const [loading, setLoading] = useState(false);
 
-   const filteredApps = apps.filter((app) =>
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  };
+
+  const filteredApps = apps.filter((app) =>
     app.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -50,7 +60,7 @@ const Apps = () => {
           </svg>
           <input
             value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={handleSearch}
             type="search"
             required
             placeholder="Search"
@@ -58,16 +68,20 @@ const Apps = () => {
         </label>
       </div>
       <div className="max-w-[1200px] mx-auto mt-20 gap-6 pb-20">
-  {filteredApps.length > 0 ? (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-      {filteredApps.map((app) => (
-        <HomeApp hideShowBtn={hideShowBtn} key={app.id} app={app} />
-      ))}
-    </div>
-  ) : (
-    <ErrorApps></ErrorApps>
-  )}
-</div>
+        {loading ? (
+          <div className="flex justify-center mt-10">
+            <PacmanLoader color="#632ee3" size={50} />
+          </div>
+        ) : filteredApps.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            {filteredApps.map((app) => (
+              <HomeApp hideShowBtn={hideShowBtn} key={app.id} app={app} />
+            ))}
+          </div>
+        ) : (
+          <ErrorApps />
+        )}
+      </div>
       {showButton && (
         <div className="flex items-center justify-center pb-20">
           <button className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-[4px] px-8">

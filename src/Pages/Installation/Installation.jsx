@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import InstalledCard from "../../Components/InstalledCard/InstalledCard";
 import { useLoaderData } from "react-router";
 import { getStoredApps, removeFromDB } from "../../Utilities/AddtoDB";
+import { toast, ToastContainer } from "react-toastify";
 
 const Installation = () => {
   const  initialApps = useLoaderData();
@@ -10,9 +11,11 @@ const Installation = () => {
   const [sort,setSort] = useState("")
 
   const handleUninstall = (id) => {
+     toast("App Uninstalled Successfully");
         removeFromDB(id)
         const newList = installedApps.filter(app => app.id !== id);
         setInstalledApps(newList)
+       
     }
 
 const handleSort = (type) => {
@@ -54,6 +57,7 @@ const handleSort = (type) => {
         const ConvertedStoredApps = StoredAppsData.map(id=>parseInt(id))
         const myInstalledApps = initialApps.appsData.filter(apps=>ConvertedStoredApps.includes(apps.id))
         setInstalledApps(myInstalledApps)
+
   },[])
 
   return (
@@ -65,9 +69,9 @@ const handleSort = (type) => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <div className="flex items-center justify-between mt-12">
+        <div className="flex flex-col md:flex-row items-center justify-between mt-12">
           <p className="font-semibold text-[24px]">{installedApps.length} Apps Found</p>
-          <div className="dropdown dropdown-hover">
+          <div className="dropdown dropdown-hover mt-4  md:mt-0">
             <div tabIndex={0} role="button" className="btn m-1">
               Sort By Downloads : {sort? sort:""}
             </div>
@@ -90,7 +94,9 @@ const handleSort = (type) => {
             }
         </div>
       </div>
+       <ToastContainer></ToastContainer>
     </div>
+    
   );
 };
 
