@@ -76,17 +76,7 @@ export const router = createBrowserRouter([
           const res = await fetch("/HomeApps.json");
           return res.json();
         },
-        Component: () => (
-          <Suspense
-            fallback={
-              <div className="flex items-center justify-center">
-                <PacmanLoader color="#632ee3" size={50} />
-              </div>
-            }
-          >
-            <AppDetails />
-          </Suspense>
-        ),
+        Component: AppDetails
       },
     ],
   },
