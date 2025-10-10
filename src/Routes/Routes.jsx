@@ -31,6 +31,10 @@ export const router = createBrowserRouter([
       },
       {
         path: "/installation",
+        loader: async () => {
+          const res = await fetch("/HomeApps.json");
+          return res.json();
+        },
         Component: Installation,
       },
       {
